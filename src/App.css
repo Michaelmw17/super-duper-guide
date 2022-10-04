@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #dddddd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+.classNoWrap {
+  white-space: nowrap;
+}
+.buttonText {
+  text-transform: capitalize;
+  color: white;
+}
+.buttonTextBig {
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+}
+.MovieHeader {
+  text-align: left;
+
+  margin-bottom: 20px;
+}
+.InviteButton {
+  border-radius: '8px';
+  background: #8456ec;
+  border: none;
+  float: right !important;
+}
+.rightAlign {
+  text-align: right;
+  /* border: 0; */
+}
+.bulletPoint {
+  font-size: 18px;
+}
+.HostedSub {
+  margin-top: -10px;
+  font-size: 10px;
 }
